@@ -6,12 +6,12 @@ float radius=10; //radius of circles
 float locationX=0;
 float locationY=0;
 
-void settings() {
-  size(900, 600);
-}
+
 
 void setup() {
+  size(900, 600);
   fill(0);
+
 
 }
 
