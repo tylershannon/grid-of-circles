@@ -24,14 +24,14 @@ void draw() {
   background(#ffffff);
 
   //setup variables
-  spaceX=(displayWidth/40);
-  spaceY=(displayHeight/30);
-  locationX=(displayWidth-(displayWidth));
-  locationY=(displayHeight/30);
+  spaceX=(900/30);
+  spaceY=(600/25);
+  locationX=(0);
+  locationY=(600/30);
 
   //setup grid circle actions
-  for (float y=locationY; y<(displayHeight-spaceY); y+=spaceY) {
-    for (float x=locationX; x<(displayWidth-spaceX); x+=spaceX) {
+  for (float y=locationY; y<(600-spaceY); y+=spaceY) {
+    for (float x=locationX; x<(900); x+=spaceX) {
     float size=dist(mouseX, mouseY, x, y);
     size = size/spaceX*(2);
     ellipse(x, y, size, size);
