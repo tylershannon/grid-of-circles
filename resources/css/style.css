@@ -1,0 +1,23 @@
+html, body {
+  font-family: Helvetica;
+}
+
+body {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+
+  /* This centers our sketch horizontally. */
+  /*justify-content: center;  */
+
+  /* This centers our sketch vertically. */
+  align-items: center;
+}
+
+.canvas {
+  display: block;
+}
+
+.info {
+  display: block;
+}
